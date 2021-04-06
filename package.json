@@ -4,6 +4,8 @@
   "description": "This is an online platform to buy grocery items at anytime from anywhere in Bangladesh",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
