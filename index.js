@@ -43,7 +43,7 @@ client.connect(err => {
   })
 
   app.delete('/deleteOrder/:id', (req, res) => {
-    const id = req.params.id;
+    const id = ObjectID(req.params.id);
     OrdersCollection.findOneAndDelete({_id:id})
     .then(documents => {
       res.send(documents.value);
