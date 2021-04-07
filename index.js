@@ -57,7 +57,6 @@ client.connect(err => {
         // console.log(items)
         res.send(items);
       })
-
   });
 
   app.get('/find/:id', (req, res) => {
@@ -90,7 +89,7 @@ client.connect(err => {
 
   app.post('/order', (req, res) => {
     const product = req.body;
-    console.log(product)
+    console.log(product);
     OrdersCollection.insertOne(product)
       .then((result) => {
         console.log(result);
