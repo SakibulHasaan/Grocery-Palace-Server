@@ -31,7 +31,6 @@ client.connect(err => {
         // console.log(items)
         res.send(items);
       })
-
   });
 
   app.delete('/delete/:id', (req, res) => {
