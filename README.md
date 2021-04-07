@@ -7,4 +7,4 @@ Data is being loaded from database
 Admin can add a data directly from client to database
 User has to be logged in to order a product
 
-# Visit Live site: 
+# Visit Live site: https://grocery-palace-56500.web.app/
